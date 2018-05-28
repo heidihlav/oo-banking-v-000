@@ -18,7 +18,7 @@ class Transfer
     if valid?
       @sender.balance -= amount
       @receiver.balance += amount
-      binding.pry
+      # binding.pry
     end
   end
 end
