@@ -23,7 +23,7 @@ class Transfer
       self.status = "complete"
     elsif
       !valid?
-        "Transaction rejected. Please check your account balance."  
+        puts "Transaction rejected. Please check your account balance."  
     end
 
   end
