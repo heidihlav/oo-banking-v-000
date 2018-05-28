@@ -17,7 +17,8 @@ class Transfer
   def execute_transaction
     if valid?
       # @sender -= amount
-      @receiver += amount
+      @receiver
+       amount
       binding.pry
     end
   end
