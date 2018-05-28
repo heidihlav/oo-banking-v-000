@@ -18,5 +18,5 @@ class Transfer
     if valid?
       @balance += balance
   end
-
+end
 end
