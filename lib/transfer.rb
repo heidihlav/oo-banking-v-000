@@ -17,6 +17,6 @@ class Transfer
   def execute_transaction
     if valid?
       @balance += balance
+    end
   end
-end
 end
