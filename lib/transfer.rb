@@ -16,7 +16,8 @@ class Transfer
 
   def execute_transaction
     if valid?
-      @receiver << @amount
+      @sender -= @amount
+      @receiver += @amount
     end
   end
 end
